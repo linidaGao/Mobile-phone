@@ -1,0 +1,306 @@
+*{
+	margin:0;
+	padding: 0; 
+}
+html,body{
+	width: 100%;
+	height:100%;
+	position:relative;
+}
+.swiper-container{
+	width: 100%;
+	height: 100%; 
+}
+.swiper-wrapper{
+	width: 100%;
+	height: 100%; 
+}
+/* 第一张图的背景 */
+ .swiper-slide-bgn1{
+	width:100%;
+	height:100%;
+	background-image: url(../images/bg5.jpg);
+	background-size:100% 100%;
+	position:center;
+}
+.swiper-slide p{
+	font-size: 20px;
+	color: white;
+	margin:10px auto;
+	text-align: center;
+}
+.swiper-slide .resume{
+	font-size: 40px;
+}
+.swiper-slide hr{
+	width: 200px;
+	margin:0 auto;	
+}
+/* 头像 */
+.swiper-slide .head-portrait img{
+	width: 180px;
+	height: 180px;
+	margin-left:100px;
+	margin-top:10px;
+}
+.swiper-slide .key-words{
+	margin-top: 50px;
+	font-size: 25px;
+}
+ .swiper-slide .known-more{
+	margin-left: 30px;
+	margin-top: 20px;
+} 
+.known-more .known-more-pic{
+	width:300px;
+	margin:0 auto;
+}
+.swiper-slide .known-more-word{
+	color: black;
+	font-size: 12px;		
+	margin-top:-42px;
+	margin-left:120px ;
+}
+ 
+/*第二张图片设置*/
+.swiper-slide-bgn2{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/bg1.png);
+	background-size:cover;
+	background-position:center;	
+}	
+/* 第二张图片的白色背景 */
+.basic-information-bgn{
+	margin-top: 50px;
+	width: 355px;
+	height:575px;
+	position: absolute;
+}
+.basic-information .basic-word{
+	width:100px;
+	font-size: 22px;
+	border: 3px dashed #ccc;
+	color: #708090;
+	position: absolute;
+	top:100px;
+	left: 40px;
+	font-weight: bold;
+}
+.basic-information .information{
+	position: absolute;
+	font-size: 16px;
+	color: #708090;
+	top:170px;
+	font-weight: bold;
+	left: 50px;
+	text-align: left;
+}
+/* 头像 */
+.basic-information .header{
+	position: absolute;
+	width: 122px;
+	height: 164px;
+	top: 80px;
+	left:173px;
+	border-radius: 10px;
+	box-shadow:-15px 10px 10px #ccc;
+}
+
+/*第三张图片设置*/
+.swiper-slide-bgn3{
+	width:100%;
+	height: 100%;
+	background-image: url(../images/bg8.jpg);
+	background-size:cover;
+	background-position:center;
+}
+/* 标题 */
+.swiper-slide-bgn3 .professional-skill{
+	border: 2px dashed lightblue;
+	width: 240px;
+	margin-top:50px;
+	margin-left:80px;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+/* 第三张里的小图标都在div中 */
+.swiper-slide-bgn3 div{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+/* 图标旁的文字设置 */
+.swiper-slide-bgn3 div p{
+	font-size: 18px;
+	color: white;
+	display:inline-block;
+	margin-left:60px;
+}
+.swiper-slide-bgn3 img{
+	vertical-align:middle;
+	width: 80px;
+	height:60px;
+}
+
+/*第四张图片*/
+.swiper-slide-bgn4{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/bg7.jpg);
+	background-size:cover;
+	background-position:center;
+}
+/* 标题 */
+.swiper-slide-bgn4 .studyAndExperice{
+	border: 2px dashed lightseagreen;
+	width: 240px;
+	margin-top:50px;
+	margin-left:80px;
+	font-size: 30px;
+	font-weight: bold;
+}
+/* 设置中间的线的动画 */
+.swiper-slide-bgn4 .line{
+	width:8px;
+	background-color:lightseagreen;
+	border-radius:5px;
+	margin-left:100px;
+	position:absolute;
+}
+@keyframes line{
+		0%{height:0px;}
+		100%{height:400px;}
+	}
+
+/* 左边第一个经历 */
+.swiper-slide-bgn4 .main .experience1{
+	display:inline-block;
+	width:80px;
+	font-size:18px;
+	margin-left:-70px;
+	margin-top:30px;
+}
+/* 右边第一个 */
+.main .line-right1{
+	display:inline-block;
+	margin-left:135px;
+}
+/* 圆1 */
+.main .circle01{
+	width:15px;
+	height: 15px;
+	border-radius:15px;
+	background-color:#F08080;			
+	display:inline-block;
+	margin-left:-127px;
+	position:absolute;
+	margin-top: 60px;
+}
+/* 左边第2，3，4个经历 */
+.swiper-slide-bgn4 .main .experience2,.swiper-slide-bgn4 .main .experience3,.swiper-slide-bgn4 .main .experience4{
+	width:80px;
+	font-size: 18px;
+	color: white;
+	position:relative;
+	margin-left:-70px;
+	margin-top:50px;
+}
+/* 右边第2，3，4个 */
+.main .line-right2,.main .line-right3,.main .line-right4{
+	float: left;
+	margin-top:-50px;
+	position:relative;
+	margin-left: 150px;
+}	
+/* 圆圈2，3，4 */
+.main .circle02,.main .circle03,.main .circle04{
+	float:left;
+	width:15px;
+	height: 15px;
+	border-radius:15px;
+	background-color:#F08080;			
+	display:inline-block;
+	margin-top:-30px;
+	margin-left:97px;
+	position:absolute;
+}
+
+/*第五张图片*/
+.swiper-slide-bgn5{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/bg9.jpg);
+	background-size:cover;
+	background-position:center;
+}	
+.swiper-slide-bgn5 .contact-ways{
+	border: 2px dashed lightblue;
+	width: 240px;
+	margin-top:50px;
+	margin-left:80px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.swiper-slide-bgn5 .phone{
+	margin-top: 30px;	
+} 
+.swiper-slide-bgn5 .phone p{
+	margin-top: 50px;
+	font-size: 15px;
+}
+
+/*第六张图片*/
+.swiper-slide-bgn6{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/bg2.png);
+	background-size:cover;
+	background-position:center;
+}
+.swiper-slide-bgn6 p{
+	font-size: 30px;
+	margin-top: 100px;
+}
+/* 下标箭头 */
+ .swipe-tip-icon{
+	background-image:url(../images/web-swipe-tip.png);
+	background-size:100% 100%;
+	background-position:center;
+	width:30px;
+	height: 30px;
+	position:absolute;
+	z-index:20;
+	bottom:10px;
+	left:50%;
+	margin-left:-15px;
+	animation:icon 2s infinite;
+}
+@keyframes icon{
+	from{
+		bottom:25px;
+		opacity:0;
+	}to{
+		bottom:10px;
+		opacity:1;
+	}
+}
+/* 音乐 */
+.music{
+	background-image:url(../images/music.png);
+	background-size:100% 100%;
+	background-position:center;
+	z-index:20;
+	position:absolute;
+	top:10px;
+	width:35px;
+	height:35px;
+	right:5%;
+	animation:music 2s linear infinite;
+}
+@keyframes music{
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(360deg)};
+}
+
+
